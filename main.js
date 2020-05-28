@@ -159,9 +159,7 @@ document.addEventListener('DOMContentLoaded', () => { //this event fires when th
     const displaySquares = document.querySelectorAll('.mini-grid div')
     const displayWidth = 4
     let displayIndex = 0
-  
-   // const theTetrominoes = [lTetromino, zTetromino, tTetromino, oTetromino, lineTetromino]
-
+    
     //tetrominos without rotations
     const upNextTetromino = [
         [1, displayWidth+1, displayWidth*2+1, 2], //l tetromino
